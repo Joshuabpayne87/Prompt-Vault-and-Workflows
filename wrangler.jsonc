@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "prompt-vault-2025",
+  "compatibility_date": "2025-09-01",
+  "pages_build_output_dir": "./dist",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "my-db-name",
+      "database_id": "eab42996-948a-4c91-a204-f7221977c541"
+    }
+  ]
+}
